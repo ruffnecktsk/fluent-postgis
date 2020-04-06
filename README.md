@@ -62,6 +62,7 @@ try User.query(on: conn).filterGeometryDistanceWithin(\User.location, searchLoca
 |filterGeometryOverlaps|
 |filterGeometryTouches|
 |filterGeometryWithin|
+|filterGeometryCovers|
 
 :gift_heart: Contributing
 ------------
